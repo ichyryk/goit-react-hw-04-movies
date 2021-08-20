@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: -10px;
+}
+
+.card {
+  width: calc((100% - 14 * 10px) / 7);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
